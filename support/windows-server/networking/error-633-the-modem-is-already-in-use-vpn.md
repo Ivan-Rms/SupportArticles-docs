@@ -44,7 +44,7 @@ To work around this issue, use one of the following methods:
   1. Click **Start**, click **Run**, type regedit.exe in the **Open** box, and then click **OK**.
   2. In Registry Editor, locate and then click the following registry subkey: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters`
   3. On the **Edit** menu, point to **New**, and then click **Multi-String Value**.
-  4. Rename the multi-string value as "ReservedPorts," and then double-click **ReservedPorts**.
+  4. Rename the multi-string value as "ReservedPorts", and then double-click **ReservedPorts**.
   5. In the **Value data** box, type 1723-1723, and then click **OK**.
   6. Quit Registry Editor.
 - Use the netstat command to find the program that uses port 1723. Then, end the process for that program. To do it, follow these steps:
